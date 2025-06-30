@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.img-fluid{
+    margin: 1rem;
+}
+
+.ok{
+    padding: 0rem;
+}
+.oo{
+    padding-top: 4rem;
+
+}
+body{
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    overflow-x: scroll; /* For horiz. scroll, otherwise overflow-y: scroll; */
+
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+.gap1{
+    padding-top: 4rem;
+}
+
+.d-flex {
+    width: auto;
+}
+
+
+.gap{
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+
+}
+
+p{
+    font-size: 1.5rem;
+}
+.large
+{
+    font-size: 4rem;
+}
+
+
+.navimg{
+    display: flex;
+    position: absolute;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+}
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
+
+
+
+.navicon{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 0.8rem;
+}
+.navicon1{
+    display: flex;
+    position: absolute;
+    left: 26%;
+    top: 0.8rem;
+}
+.navicon2{
+    display: flex;
+    position: absolute;
+    left: 46%;
+    top: 0.8rem;
+}
+.navicon3{
+    display: flex;
+    position: absolute;
+    left: 66%;
+    top: 0.8rem;
+}
+.navicon4{
+    display: flex;
+    position: absolute;
+    left: 87%;
+    top: 0.8rem;
+}
+.navicon:hover {
+    background-color: #ffffff !important;
+    transition: 0.2s ease;
+}
+
+.active1 {
+    background-color: #f09e05a1 !important ;
+    
+}
+.active1{
+    display: flex;
+    position:absolute;
+    height: 2.7rem;
+    border-radius: 10px;
+  color: ;
+    top: 0.4rem;
+}
+.navicon1:hover {
+    background-color: #f09e05a1 !important ;
+    transition: 0.2s ease;   display: flex;
+    position:absolute;
+    height: 2.7rem;
+    border-radius: 10px;
+  color: ;
+  padding: 2px;
+    top: 0.4rem;
+}
+.navicon2:hover {
+    background-color: #f09e05a1 !important ;
+    transition: 0.2s ease;   display: flex;
+    position:absolute;
+    height: 2.7rem;
+    border-radius: 10px;
+  color: ;
+  padding: 2px;
+    top: 0.4rem;
+}
+.navicon3:hover {
+    background-color: #f09e05a1 !important ;
+    transition: 0.2s ease;   display: flex;
+    position:absolute;
+    height: 2.7rem;
+    border-radius: 10px;
+  color: ;
+  padding: 2px;
+    top: 0.4rem;
+}
+.navicon4:hover {
+    background-color: #f09e05a1 !important ;
+    transition: 0.2s ease;   display: flex;
+    position:absolute;
+    height: 2.7rem;
+    border-radius: 10px;
+  color: ;
+  padding: 2px;
+    top: 0.4rem;
+}
