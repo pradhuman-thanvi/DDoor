@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f8f8f8; /* Light background */
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 360px;
+    text-align: center; /* Center align the content */
+}
+
+h1 {
+    margin-bottom: 20px; /* Reduced margin */
+    font-size: 28px; /* Larger font size */
+    font-weight: 600;
+    color: #ff523b; /* Swiggy's primary color */
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px; /* Reduced margin */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 20px; /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400; /* Normal weight */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #ff523b; /* Swiggy's primary color on focus */
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+button {
+    padding: 12px 20px; /* Reduced padding */
+    background: #ff523b; /* Swiggy's primary color */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Neutral shadow */
+}
+
+button:hover {
+   

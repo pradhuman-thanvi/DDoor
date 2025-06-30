@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started with DDoor</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+        body, html {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 90%;
+            max-width: 1200px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .text-content {
+            max-width: 50%;
+        }
+
+        .text-content h1 {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .get-started-btn {
+            background-color: #f09e05;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .get-started-btn:hover {
+            background-color: #d88c04;
+        }
+
+        .image-holder {
+            max-width: 50%;
+        }
+
+        .image-holder img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .text-content, .image-holder {
+                max-width: 100%;
+            }
+
+            .text-content h1 {
+                font-size: 36px;
+            }
+
+            .text-content p {
+                font-size: 16px;
+            }
+
+            .get-started-btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-content">
+            <h1>Let's Get Started</h1>
+            <p>Easy way to manage your finances at your fingertips</p>
+        </div>
+        <div class="image-holder">
+            <img src="images/index.webp" alt="Illustration">
+        </div>
+        <button class="get-started-btn" onclick="window.location.href='home.php'">Get Started &#x21AA;</button>
+
+    </div>
+</body>
+</html>
